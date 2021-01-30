@@ -20,13 +20,13 @@ class Day3CodingInSwiftTests: XCTestCase {
   }
   
   func testScorePositive() {
-    var guess = game.target + 5
+    let guess = game.target + 5
     let score = game.points(sliderValue: guess)
     XCTAssertEqual(score, 95)
   }
   
   func testScoreNegative() {
-    var guess = game.target - 5
+    let guess = game.target - 5
     let score = game.points(sliderValue: guess)
     XCTAssertEqual(score, 95)
   }
