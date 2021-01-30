@@ -9,18 +9,26 @@ import XCTest
 @testable import Day3CodingInSwift
 
 class Day3CodingInSwiftTests: XCTestCase {
-
+  
   var game: Game!
-    override func setUpWithError() throws {
-        game = Game()
-    }
-
-    override func tearDownWithError() throws {
-        game = nil
-    }
-
-    func testExample() throws {
-      XCTAssertEqual(game.points(sliderValue: 50), 999)
-    }
-
+  override func setUpWithError() throws {
+    game = Game()
+  }
+  
+  override func tearDownWithError() throws {
+    game = nil
+  }
+  
+  func testScorePositive() {
+    var guess = game.target + 5
+    let score = game.points(sliderValue: guess)
+    XCTAssertEqual(score, 95)
+  }
+  
+  func testScoreNegative() {
+    var guess = game.target - 5
+    let score = game.points(sliderValue: guess)
+    XCTAssertEqual(score, 95)
+  }
+  
 }
