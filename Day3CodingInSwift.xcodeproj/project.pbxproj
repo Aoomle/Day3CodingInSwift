@@ -13,6 +13,7 @@
 		47D1E56525C5FE1B0003DCEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D1E56425C5FE1B0003DCEE /* Assets.xcassets */; };
 		47D1E56825C5FE1B0003DCEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D1E56725C5FE1B0003DCEE /* Preview Assets.xcassets */; };
 		47D1E56B25C5FE1B0003DCEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D1E56925C5FE1B0003DCEE /* LaunchScreen.storyboard */; };
+		47D1E57425C5FE660003DCEE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1E57325C5FE660003DCEE /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		47D1E56725C5FE1B0003DCEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		47D1E56A25C5FE1B0003DCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47D1E56C25C5FE1B0003DCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D1E57325C5FE660003DCEE /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,10 @@
 		47D1E55D25C5FE1A0003DCEE /* Day3CodingInSwift */ = {
 			isa = PBXGroup;
 			children = (
-				47D1E55E25C5FE1A0003DCEE /* AppDelegate.swift */,
-				47D1E56025C5FE1A0003DCEE /* SceneDelegate.swift */,
-				47D1E56225C5FE1A0003DCEE /* ContentView.swift */,
-				47D1E56425C5FE1B0003DCEE /* Assets.xcassets */,
-				47D1E56925C5FE1B0003DCEE /* LaunchScreen.storyboard */,
 				47D1E56C25C5FE1B0003DCEE /* Info.plist */,
+				47D1E57625C5FE720003DCEE /* App */,
+				47D1E57725C5FE8E0003DCEE /* Views */,
+				47D1E57925C5FE950003DCEE /* Models */,
 				47D1E56625C5FE1B0003DCEE /* Preview Content */,
 			);
 			path = Day3CodingInSwift;
@@ -73,6 +73,33 @@
 				47D1E56725C5FE1B0003DCEE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47D1E57625C5FE720003DCEE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				47D1E55E25C5FE1A0003DCEE /* AppDelegate.swift */,
+				47D1E56025C5FE1A0003DCEE /* SceneDelegate.swift */,
+				47D1E56425C5FE1B0003DCEE /* Assets.xcassets */,
+				47D1E56925C5FE1B0003DCEE /* LaunchScreen.storyboard */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		47D1E57725C5FE8E0003DCEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				47D1E56225C5FE1A0003DCEE /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		47D1E57925C5FE950003DCEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				47D1E57325C5FE660003DCEE /* Game.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +175,7 @@
 				47D1E55F25C5FE1A0003DCEE /* AppDelegate.swift in Sources */,
 				47D1E56125C5FE1A0003DCEE /* SceneDelegate.swift in Sources */,
 				47D1E56325C5FE1A0003DCEE /* ContentView.swift in Sources */,
+				47D1E57425C5FE660003DCEE /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
