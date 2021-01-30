@@ -14,7 +14,18 @@
 		47D1E56825C5FE1B0003DCEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D1E56725C5FE1B0003DCEE /* Preview Assets.xcassets */; };
 		47D1E56B25C5FE1B0003DCEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D1E56925C5FE1B0003DCEE /* LaunchScreen.storyboard */; };
 		47D1E57425C5FE660003DCEE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1E57325C5FE660003DCEE /* Game.swift */; };
+		47DA9E7D25C604DB00F8E07C /* Day3CodingInSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DA9E7C25C604DB00F8E07C /* Day3CodingInSwiftTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47DA9E7F25C604DB00F8E07C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D1E55325C5FE1A0003DCEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D1E55A25C5FE1A0003DCEE;
+			remoteInfo = Day3CodingInSwift;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		47D1E55B25C5FE1A0003DCEE /* Day3CodingInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day3CodingInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +37,20 @@
 		47D1E56A25C5FE1B0003DCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47D1E56C25C5FE1B0003DCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47D1E57325C5FE660003DCEE /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		47DA9E7A25C604DB00F8E07C /* Day3CodingInSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day3CodingInSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DA9E7C25C604DB00F8E07C /* Day3CodingInSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3CodingInSwiftTests.swift; sourceTree = "<group>"; };
+		47DA9E7E25C604DB00F8E07C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		47D1E55825C5FE1A0003DCEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47DA9E7725C604DB00F8E07C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				47D1E55D25C5FE1A0003DCEE /* Day3CodingInSwift */,
+				47DA9E7B25C604DB00F8E07C /* Day3CodingInSwiftTests */,
 				47D1E55C25C5FE1A0003DCEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				47D1E55B25C5FE1A0003DCEE /* Day3CodingInSwift.app */,
+				47DA9E7A25C604DB00F8E07C /* Day3CodingInSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +125,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		47DA9E7B25C604DB00F8E07C /* Day3CodingInSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				47DA9E7C25C604DB00F8E07C /* Day3CodingInSwiftTests.swift */,
+				47DA9E7E25C604DB00F8E07C /* Info.plist */,
+			);
+			path = Day3CodingInSwiftTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,6 +154,24 @@
 			productReference = 47D1E55B25C5FE1A0003DCEE /* Day3CodingInSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
+		47DA9E7925C604DB00F8E07C /* Day3CodingInSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47DA9E8325C604DB00F8E07C /* Build configuration list for PBXNativeTarget "Day3CodingInSwiftTests" */;
+			buildPhases = (
+				47DA9E7625C604DB00F8E07C /* Sources */,
+				47DA9E7725C604DB00F8E07C /* Frameworks */,
+				47DA9E7825C604DB00F8E07C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47DA9E8025C604DB00F8E07C /* PBXTargetDependency */,
+			);
+			name = Day3CodingInSwiftTests;
+			productName = Day3CodingInSwiftTests;
+			productReference = 47DA9E7A25C604DB00F8E07C /* Day3CodingInSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -133,6 +183,10 @@
 				TargetAttributes = {
 					47D1E55A25C5FE1A0003DCEE = {
 						CreatedOnToolsVersion = 12.2;
+					};
+					47DA9E7925C604DB00F8E07C = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 47D1E55A25C5FE1A0003DCEE;
 					};
 				};
 			};
@@ -150,6 +204,7 @@
 			projectRoot = "";
 			targets = (
 				47D1E55A25C5FE1A0003DCEE /* Day3CodingInSwift */,
+				47DA9E7925C604DB00F8E07C /* Day3CodingInSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -162,6 +217,13 @@
 				47D1E56B25C5FE1B0003DCEE /* LaunchScreen.storyboard in Resources */,
 				47D1E56825C5FE1B0003DCEE /* Preview Assets.xcassets in Resources */,
 				47D1E56525C5FE1B0003DCEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47DA9E7825C604DB00F8E07C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +241,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47DA9E7625C604DB00F8E07C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DA9E7D25C604DB00F8E07C /* Day3CodingInSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47DA9E8025C604DB00F8E07C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D1E55A25C5FE1A0003DCEE /* Day3CodingInSwift */;
+			targetProxy = 47DA9E7F25C604DB00F8E07C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		47D1E56925C5FE1B0003DCEE /* LaunchScreen.storyboard */ = {
@@ -351,6 +429,46 @@
 			};
 			name = Release;
 		};
+		47DA9E8125C604DB00F8E07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5Y5DR73B2;
+				INFOPLIST_FILE = Day3CodingInSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aoomle.Day3CodingInSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day3CodingInSwift.app/Day3CodingInSwift";
+			};
+			name = Debug;
+		};
+		47DA9E8225C604DB00F8E07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5Y5DR73B2;
+				INFOPLIST_FILE = Day3CodingInSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aoomle.Day3CodingInSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day3CodingInSwift.app/Day3CodingInSwift";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -368,6 +486,15 @@
 			buildConfigurations = (
 				47D1E57025C5FE1B0003DCEE /* Debug */,
 				47D1E57125C5FE1B0003DCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47DA9E8325C604DB00F8E07C /* Build configuration list for PBXNativeTarget "Day3CodingInSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47DA9E8125C604DB00F8E07C /* Debug */,
+				47DA9E8225C604DB00F8E07C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
